@@ -14,7 +14,7 @@ h2 {
 
 #flex-box {
     width: 90%;
-    margin: 60px auto 100px auto;
+    margin: 60px auto 40px auto;
     display: flex;
     justify-content: space-between;
     gap: 10px;
@@ -27,4 +27,10 @@ h2 {
     text-align: justify;
     border-radius: 20px;
     box-shadow: 2px 2px 5px;
+}
+footer{
+    font-size: smaller;
+    text-align: center;
+    background-color: yellowgreen;
+    color: white;
 }
