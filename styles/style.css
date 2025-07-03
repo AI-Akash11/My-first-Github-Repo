@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+body {
+    background-image: linear-gradient(270deg, cyan, aquamarine);
+}
+h2 {
+    text-align: center;
+    font-size: 90px;
+    color: white;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+#flex-box {
+    width: 90%;
+    margin: 60px auto 100px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.box {
+    width: 16%;
+    background-image: linear-gradient(90deg,orange , yellow);
+    padding: 10px;
+    text-align: justify;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px;
+}
